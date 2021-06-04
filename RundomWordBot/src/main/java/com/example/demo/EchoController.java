@@ -10,6 +10,7 @@ import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
 
 @LineMessageHandler
 public class EchoController {
+
 	@EventMapping
     public Message handleTextMessageEvent(MessageEvent<TextMessageContent> event) {
         String originalMessageText = event.getMessage().getText();
