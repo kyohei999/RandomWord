@@ -29,6 +29,4 @@ public class RundomWordBotApplication {
     public void handleDefaultMessageEvent(Event event) {
         System.out.println("event: " + event);
     }
-
-
 }
